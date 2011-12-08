@@ -1,0 +1,20 @@
+Logfile initialized
+[INFO] logfile = /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build.log
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.7.0.RC1/android/builder.py distribute TiBountyHunter /android-sdk /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter com.appcelerator.tibountyhunter /Users/tpoulsen/keystore/android.keystore mott3336 tibh /Users/tpoulsen/Documents 6
+[INFO] Titanium SDK version: 1.7.0 (05/15/11 17:26 e6afca8)
+[INFO] Copying project resources..
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[DEBUG] copying app icon: /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/bin/assets/Resources/appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found splash screen at /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/R.java to javac build list
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterActivity.java to javac build list
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterAppInfo.java to javac build list
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterApplication.java to javac build list
+[DEBUG] Building Java Sources: "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/R.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterActivity.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterAppInfo.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterApplication.java"
+[INFO] Waiting for SDCard to become available..
+[ERROR] Error checking for SDCard using 'mount'
+[INFO] Compiling Android Resources... This could take some time
+[INFO] Android Emulator has exited
