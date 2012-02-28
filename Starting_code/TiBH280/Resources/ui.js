@@ -208,7 +208,7 @@
 		});
 		win.add(deleteButton);
 		
-		Ti.Facebook.appid = "184482501591139"; //"217629481582774";
+		Ti.Facebook.appid = "184482501591139"; 
 		Ti.Facebook.permissions = ['publish_stream'];
 		
 		if (_bounty.captured) {

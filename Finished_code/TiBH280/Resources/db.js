@@ -73,8 +73,8 @@
 			for (var i = 0;i<data.length;i++) {
 				bh.db.add(data[i].name);
 			}
+			Ti.App.Properties.setString('seeded','yuppers');
 		});
-		Ti.App.Properties.setString('seeded','yuppers');
 	}
 
 })();
