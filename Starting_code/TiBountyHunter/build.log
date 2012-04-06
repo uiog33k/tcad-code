@@ -1,20 +1,22 @@
 Logfile initialized
-[INFO] logfile = /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build.log
-[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.7.0.RC1/android/builder.py distribute TiBountyHunter /android-sdk /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter com.appcelerator.tibountyhunter /Users/tpoulsen/keystore/android.keystore mott3336 tibh /Users/tpoulsen/Documents 6
-[INFO] Titanium SDK version: 1.7.0 (05/15/11 17:26 e6afca8)
+[INFO] logfile = /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunterNew/build.log
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/2.1.0.v20120404110347/android/builder.py simulator TiBountyHunterNew /android-sdk /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunterNew com.appc.tibhnew 6 WVGA854 
+[INFO] Building TiBountyHunterNew for Android ... one moment
+[INFO] Titanium SDK version: 2.1.0 (04/04/12 11:03 34c5e1a)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015403 seconds on emulator to get ready
+[DEBUG] com.appc.tibhnew installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[TRACE] Generating Java Classes
+[TRACE] COPYING MODIFIED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunterNew/Resources/ui/common/LoginWindow.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunterNew/build/android/bin/assets/Resources/ui/common/LoginWindow.js
+[INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
-[DEBUG] copying app icon: /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/bin/assets/Resources/appicon.png
-[DEBUG] generating theme.xml
-[DEBUG] found splash screen at /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/bin/assets/Resources/default.png
-[TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/R.java to javac build list
-[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterActivity.java to javac build list
-[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterAppInfo.java to javac build list
-[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterApplication.java to javac build list
-[DEBUG] Building Java Sources: "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/R.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterActivity.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterAppInfo.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/TiBountyHunter/build/android/gen/com/appcelerator/tibountyhunter/TibountyhunterApplication.java"
 [INFO] Waiting for SDCard to become available..
-[ERROR] Error checking for SDCard using 'mount'
-[INFO] Compiling Android Resources... This could take some time
+[INFO] Re-launching application ... TiBountyHunterNew
+[INFO] Launching application ... TiBountyHunterNew
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appc.tibhnew/.TibountyhunternewActivity }
+
 [INFO] Android Emulator has exited

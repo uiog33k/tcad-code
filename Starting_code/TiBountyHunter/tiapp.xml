@@ -3,17 +3,18 @@
     <deployment-targets>
         <target device="mobileweb">false</target>
         <target device="iphone">true</target>
-        <target device="ipad">false</target>
+        <target device="ipad">true</target>
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <id>com.appcelerator.tibountyhunter</id>
-    <name>TiBountyHunter</name>
+    <sdk-version>2.1.0.v20120404110347</sdk-version>
+    <id>com.appc.tibhnew</id>
+    <name>TiBountyHunterNew</name>
     <version>1.0</version>
     <publisher>tpoulsen</publisher>
-    <url>http://appcelerator.com</url>
+    <url>http://</url>
     <description>not specified</description>
-    <copyright>2011 by tpoulsen</copyright>
+    <copyright>2012 by tpoulsen</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
@@ -22,7 +23,9 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>30a33e8c-e12d-4864-b83a-d26df2eb1951</guid>
+    <guid>8d10acc2-b2a9-4c43-8e0d-c62b06bb04a9</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <property name="ti.android.threadstacksize" type="int">32768</property>
     <iphone>
         <orientations device="iphone">
             <orientation>Ti.UI.PORTRAIT</orientation>
@@ -35,6 +38,15 @@
         </orientations>
     </iphone>
     <android xmlns:android="http://schemas.android.com/apk/res/android"/>
-    <modules/>
-    <property name="ti.android.threadstacksize" type="int">32768</property>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.0">ti.cloud</module>
+    </modules>
 </ti:app>
