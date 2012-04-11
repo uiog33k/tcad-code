@@ -10,7 +10,4 @@
 	<string name="new_fugitive">New Fugitive</string>
 	<string name="save">Save</string>
 	<string name="fugitive_name">Fugitive Name</string>
-	<string name="photo">Add Photo</string>
-	<string name="camera_error">Camera Error</string>
-	<string name="camera_error_details">Your device must have a camera to add a photo</string>
 </resources>

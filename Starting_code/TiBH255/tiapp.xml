@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <sdk-version>1.8.0.1</sdk-version>
+    <sdk-version>2.0.0.GA</sdk-version>
     <deployment-targets>
-        <target device="mobileweb">false</target>
+        <target device="mobileweb">true</target>
         <target device="blackberry">false</target>
         <target device="iphone">true</target>
         <target device="ipad">true</target>
@@ -23,7 +23,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>2814ae92-6b70-4891-9b07-990bdd3ff773</guid>
+    <guid>11c66092-5698-4209-8270-e79f89c24791</guid>
     <iphone>
         <orientations device="iphone">
             <orientation>Ti.UI.PORTRAIT</orientation>
