@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <sdk-version>2.0.0.v20120326211803</sdk-version>
+    <property name="acs-oauth-secret-development" type="string">BID02R3o0uZLZU10OxVU1ZmYLBwRsjXr</property>
+    <property name="acs-oauth-key-development" type="string">BA2yMTGAnFK84ajykA6v82o6PY9AE8mv</property>
+    <property name="acs-api-key-development" type="string">M5o7zvTeh7k7ITLHbV2V6dOQWsIHvpWD</property>
+    <property name="acs-oauth-secret-production" type="string">C2VRFPVD6m9wHbqxAnk4HbhMg0bQmhoZ</property>
+    <property name="acs-oauth-key-production" type="string">NLvNj4JtCpGtaTZVK6bcXTkIpmbifRNP</property>
+    <property name="acs-api-key-production" type="string">ajWgFHnifWEgYzLb8oO7611VKkfROf53</property>
+    <sdk-version>2.0.0.GA</sdk-version>
     <deployment-targets>
         <target device="mobileweb">false</target>
         <target device="iphone">true</target>
