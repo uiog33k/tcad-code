@@ -11,6 +11,15 @@
 	<string name="save">Save</string>
 	<string name="fugitive_name">Fugitive Name</string>
 	<string name="photo">Add Photo</string>
+	<string name="camera_error">Camera Error</string>
+	<string name="camera_error_details">Your device must have a camera to add a photo</string>
+	<string name="geo_purpose">Tracking down criminal scum</string>
+	<string name="map_button">Show On Map</string>
+	<string name="geo_error">Geolocation Error</string>
+	<string name="get_position_error">Geolocation failed. Do you have a location set on your Android emulator?</string>
+	<string name="geo_error_details">Geolocation is turned off on this device.  Unable to determine location.</string>
+	<string name="busted_at">Busted At...</string>
+	<string name="close">Close</string>
 	<string name="login2brag">Log in to Brag!</string>
 	<string name="brag">Brag!</string>
 	<string name="pleasewait">please wait ...</string>
@@ -22,13 +31,6 @@
 	<string name="confirm">confirm</string>
 	<string name="createuser">Create Account</string>
 	<string name="messages">Messsages</string>
-	<string name="close">Close</string>
 	<string name="cancel">Cancel</string>
 	<string name="message">Ain't I grand? I caught </string>
-	<string name="camera_error">Camera Error</string>
-	<string name="camera_error_details">Your device must have a camera to add a photo</string>
-	<string name="map_button">Show On Map</string>
-	<string name="geo_error">Geolocation Off</string>
-	<string name="geo_error_details">Geolocation is turned off on this device.  Unable to determine location.</string>
-	<string name="busted_at">Busted At...</string>
 </resources>

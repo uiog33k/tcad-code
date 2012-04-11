@@ -7,9 +7,6 @@ var loggedIn = false;
 
 // add your ACS keys here:
 var Cloud = require('ti.cloud');
-Cloud.apiKey = 'CUxRdZRwGEbdLE1bPYOJ7YPYLRT23rZm';
-Cloud.consumerKey = 'r7F9M13DcezDlMpBIVvY1XKnWt5qB1n8';
-Cloud.consumerSecret = 'FOplU7RXyhmXKonixUEkfEwagx4ypazN';
 
 exports.isLoggedIn = function() {
 	return loggedIn;

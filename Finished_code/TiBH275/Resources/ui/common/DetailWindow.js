@@ -1,4 +1,3 @@
-Ti.Geolocation.purpose = 'Tracking down criminal scum';
 var DetailWindow = function(/*Object*/ _bounty, /*Tab object reference*/ containingTab) {
 	var db = require('lib/db');
 	
@@ -101,6 +100,7 @@ var DetailWindow = function(/*Object*/ _bounty, /*Tab object reference*/ contain
 			width:200
 		});
 		captureButton.addEventListener('click', function() {
+			Ti.Geolocation.purpose = L('geo_purpose');
 			if (Ti.Geolocation.locationServicesEnabled) {
 				if(Ti.Platform.osname === 'android') {
 					Ti.Geolocation.accuracy = Ti.Geolocation.ACCURACY_HIGH;
@@ -132,7 +132,7 @@ var DetailWindow = function(/*Object*/ _bounty, /*Tab object reference*/ contain
 					} else {
 						Ti.UI.createAlertDialog({
 							title:L('geo_error'), 
-							message:'Geolocation failed. Do you have a location set on your Android emulator?'
+							message:L('get_position_error')
 						}).show();
 					}
 				});
