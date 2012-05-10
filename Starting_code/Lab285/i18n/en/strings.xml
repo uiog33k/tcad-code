@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="about">About</string>
+	<string name="feed">RSS Feed</string>
+	<string name="close">Close</string>
+</resources>
