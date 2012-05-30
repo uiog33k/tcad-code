@@ -21,17 +21,14 @@ var DetailWindow = function(/*Object*/ _bounty, /*Tab object reference*/ contain
 		height:Ti.UI.SIZE
 	}));
 	
+
+	
 	if (!_bounty.captured) {
 		var captureButton = Ti.UI.createButton({
 			title:L('capture'),
 			top:10,
 			height:Ti.UI.SIZE,
 			width:200
-		});
-		captureButton.addEventListener('click', function() {
-			var db = require('lib/db');
-			db.bust(_bounty.id);
-			win.close();
 		});
 		win.add(captureButton);
 	}
@@ -41,11 +38,6 @@ var DetailWindow = function(/*Object*/ _bounty, /*Tab object reference*/ contain
 		top:10,
 		height:Ti.UI.SIZE,
 		width:200
-	});
-	deleteButton.addEventListener('click', function() {
-		var db = require('lib/db');
-		db.del(_bounty.id);
-		win.close();
 	});
 	win.add(deleteButton);
 	

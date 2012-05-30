@@ -12,11 +12,16 @@ var BountyTableView = function(/*Boolean*/ _captured) {
 	});
 		
 	function populateData() {
-		var db = require('lib/db');
-		var results = db.list(_captured);
+		//use dummy data for now...
+		var results = [
+			{title:'Jeff Haynie', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Nolan Wright', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Marshall Culpepper', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Don Thorp', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Blain Hamon', color:'#fff', hasChild:true, captured:_captured}
+		];
 		tv.setData(results);
 	}
-	Ti.App.addEventListener('databaseUpdated', populateData);
 	
 	//run initial query
 	populateData();
